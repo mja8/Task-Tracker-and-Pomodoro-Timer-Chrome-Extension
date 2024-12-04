@@ -34,8 +34,6 @@ Click Load unpacked and select the dist folder inside the project directory.
 Development Mode
 To run the project in development mode with live reloading:
 
-bash
-Copy code
 npm start
 This will start a local Webpack dev server. Note that extensions cannot load directly from the dev server, so you'll still need to manually reload the extension from the dist folder.
 
@@ -74,6 +72,7 @@ task-pomodoro-extension/
 📸 Screenshots
 ### Popup UI
 ![Popup UI](assets/chrome_tab.png)
+src/assets/chrome_tab.png
 
 ### Tasks Section
 ![Tasks Section](assets/Task1.png)

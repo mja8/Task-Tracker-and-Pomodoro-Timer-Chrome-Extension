@@ -11,7 +11,6 @@ Task Tracker and Pomodoro Timer is a Chrome extension designed to enhance produc
 ## 🛠️ Project Setup
 
 ### Clone the Repository
-```bash
 git clone https://github.com/mja8/Task-Tracker-and-Pomodoro-Timer-Chrome-Extension.git
 cd task-pomodoro-extension
 

@@ -71,7 +71,6 @@ task-pomodoro-extension/
 📸 Screenshots
 ### Popup UI
 ![Popup UI](assets/chrome_tab.png)
-src/assets/chrome_tab.png
 
 ### Tasks Section
 ![Tasks Section](assets/Task1.png)

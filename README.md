@@ -18,16 +18,12 @@ cd task-pomodoro-extension
 Install Dependencies
 Ensure you have Node.js installed, then run:
 
-bash
-Copy code
-npm install
+command to run : npm install
 
 Build the Extension
 Compile the React app and assets for the Chrome extension:
 
-bash
-Copy code
-npm run build
+command to run : npm run build
 
 Load the Extension into Chrome
 Open chrome://extensions/.
@@ -46,9 +42,7 @@ This will start a local Webpack dev server. Note that extensions cannot load dir
 Build for Production
 To generate a production-ready build:
 
-bash
-Copy code
-npm run build
+command to run : npm run build
 
 🧰 Technologies Used
 React: Frontend framework for building the task manager and timer interface.

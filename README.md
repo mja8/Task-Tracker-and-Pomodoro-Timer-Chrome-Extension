@@ -11,18 +11,24 @@ Task Tracker and Pomodoro Timer is a Chrome extension designed to enhance produc
 ## 🛠️ Project Setup
 
 ### Clone the Repository
+```bash
 git clone https://github.com/mja8/Task-Tracker-and-Pomodoro-Timer-Chrome-Extension.git
 cd task-pomodoro-extension
+```
 
 Install Dependencies
 Ensure you have Node.js installed, then run:
 
-command to run : npm install
+```bash
+npm install
+```
 
 Build the Extension
 Compile the React app and assets for the Chrome extension:
 
-command to run : npm run build
+```bash
+npm run build
+```
 
 Load the Extension into Chrome
 Open chrome://extensions/.
@@ -33,13 +39,17 @@ Click Load unpacked and select the dist folder inside the project directory.
 Development Mode
 To run the project in development mode with live reloading:
 
+```bash
 npm start
+```
 This will start a local Webpack dev server. Note that extensions cannot load directly from the dev server, so you'll still need to manually reload the extension from the dist folder.
 
 Build for Production
 To generate a production-ready build:
 
-command to run : npm run build
+```bash
+npm run build
+```
 
 🧰 Technologies Used
 React: Frontend framework for building the task manager and timer interface.
@@ -48,9 +58,10 @@ Babel: For transpiling modern JavaScript and React JSX.
 Chrome Extensions API: To store data and manage background processes.
 CSS: Custom styling for a modern, professional UI.
 
+
 📂 Project Structure
-bash
-Copy code
+
+```bash
 task-pomodoro-extension/
 ├── src/
 │   ├── popup/              # React components and UI files for the extension popup
@@ -67,6 +78,7 @@ task-pomodoro-extension/
 ├── .babelrc                # Babel configuration
 ├── package.json            # Node.js project metadata
 └── README.md               # Project documentation
+```
 
 📸 Screenshots
 ### Popup UI

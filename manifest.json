@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Task Tracker and Pomodoro Timer",
+  "version": "1.0",
+  "description": "A productivity tool to manage tasks and use a Pomodoro timer.",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup/index.html",
+    "default_icon": {
+      "16": "assets/icon16.png",
+      "48": "assets/icon48.png",
+      "128": "assets/icon128.png"
+    }, 
+    "default_popup_width": 400
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  },
+  "permissions": ["storage"]  
+}

@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Inside popup.css */
+html, body {
+  width:500px;
+}
+
+
+/* General Container Styles */
+.container {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #6a0dad; /* Professional violet background */
+  color: white; /* White text for contrast */
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  width: 400px; /* Wider popup */
+}
+
+/* Timer Section */
+.timer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.timer h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.timer button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.timer button:hover {
+  background-color: #333; /* Darker hover effect */
+}
+
+/* Tasks Section */
+.tasks h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #fff; /* White text for task names */
+  background-color: transparent; /* Transparent for violet background */
+  border: none;
+}
+
+.list-group-item + .list-group-item {
+  margin-top: 5px; /* Add spacing between tasks */
+}
+
+/* Buttons for Tasks */
+.tasks button {
+  background-color: black; /* Black button */
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.tasks button:hover {
+  background-color: #333; /* Darker hover effect for black buttons */
+}
+
+/* Add Task Button */
+button.btn-success {
+  background-color: black; /* Black button */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 100%; /* Full-width button */
+}
+
+button.btn-success:hover {
+  background-color: #333; /* Hover effect */
+}
+
+/* Scrollbar Styling for Long Lists */
+.tasks ul {
+  max-height: 200px; /* Limit height of task list */
+  overflow-y: auto; /* Enable scrolling */
+}
+
+.tasks ul::-webkit-scrollbar {
+  width: 8px;
+}
+
+.tasks ul::-webkit-scrollbar-thumb {
+  background-color: black;
+  border-radius: 4px;
+}
+
+.tasks ul::-webkit-scrollbar-track {
+  background-color: #6a0dad;
+}
+
+/* Utility Spacing */
+.my-3 {
+  margin: 16px 0;
+}

@@ -82,10 +82,10 @@ task-pomodoro-extension/
 
 📸 Screenshots
 ### Popup UI
-![Popup UI](assets/chrome_tab.png)
+![Popup UI]![chrome_tab](https://github.com/user-attachments/assets/f14abf64-7477-400a-968a-4e0cca5fc0f9)
 
 ### Tasks Section
-![Tasks Section](assets/Task1.png)
+![Tasks Section]![Task1](https://github.com/user-attachments/assets/792b9d4c-9e3d-4554-8ac6-3857a027e4da)
 
 ### Pomodoro Timer
-![Pomodoro Timer](assets/Task2.png)
+![Pomodoro Timer]![Task2](https://github.com/user-attachments/assets/e12d82f7-6dcc-462d-9e56-3dfb69a1f942)
